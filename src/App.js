@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LocalWeather from './localWeather.js'
 import './App.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
       <div className="App">
         <p className="App-intro">
           Hello World
+          <LocalWeather />
         </p>
       </div>
     );
